@@ -6,10 +6,10 @@
   </head>
   
   <body>
+    <div id="demo"></div>
+    <button onclick="myDemo()">Click me!</button>
     <es type="pure-js">
-      var p = document.createElement("p");
-      p.textContent = "This has been made with JavaScript";
-      document.body.appendChild(p);
+      function myDemo() {var p = document.createElement("p");p.textContent = "This has been made with JavaScript";document.getElementById("demo").appendChild(p);}
     </es>
   </body>
 </html>
