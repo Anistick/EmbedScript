@@ -11,12 +11,15 @@ var typeArray = [
 ];
 let isPyAdded;
 
-function addpy() {
+function addpy(ix) {
   if (isPyAdded !== true) {
     document.body.appendChild(psce);
     document.body.appendChild(psjse);
     isPyAdded = true;
   }
+  let npy = document.createElement("py-script");
+  npy.textContent = eseArray[i].textContent;
+  document.body.appendChild(npy);
 }
 var typeArrayJson = {
   "py-script": "py-script",
@@ -45,7 +48,7 @@ function addjs(iv) {
 function doese(i) {
   if (eseArray[i].getAttribute("type") == typeArrayJson["py-script"]) {
     if (isPyAdded !== true) {
-      addpy();
+      addpy(i);
     }
     if (isPyAdded == true) {
       //console.log("IPA to document already added");
