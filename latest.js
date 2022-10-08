@@ -1,3 +1,5 @@
+"use strict";
+console.log("Anistick EmbedScript 1.1.0");
 var psce = document.createElement("link");
 psce.rel = "stylesheet";
 psce.href = "https://pyscript.net/latest/pyscript.css";
