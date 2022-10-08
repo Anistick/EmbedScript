@@ -29,7 +29,7 @@ var typeArrayJson = {
 };
 var eseArray = document.getElementsByTagName(est);
 function addjs(iv) {
-	let isDefer, isAsync;
+	let isDefer, isAsync, isSrc;
   let njs = document.createElement("script");
   if (iv.defer) {
   	isDefer = true;
@@ -37,11 +37,17 @@ function addjs(iv) {
   if (iv.async) {
   	isAsync = true;
   }
+  if (iv.src) {
+  	isSrc = true;
+  }
   if (isDefer) {
   	njs.defer = true;
   }
   if (isAsync) {
   	njs.async = true;
+  }
+  if (isSrc) {
+  	njs.src = iv.src;
   }
   njs.textContent = iv;
   document.body.appendChild(njs);
