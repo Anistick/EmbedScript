@@ -28,3 +28,4 @@ print("Hello, World!")
 </es>
 ```
 That's the basics!
+Python embedding uses [PyScript.](https://pyscript.net)
