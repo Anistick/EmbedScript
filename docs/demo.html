@@ -2,14 +2,14 @@
 <html>
   <head>
     <title>EmbedScript Demo</title>
-    <script async defer src="https://cdn.jsdelivr.net/gh/Anistick/EmbedScript@main/latest.min.js"></script>
+    <script async defer src="https://cdn.jsdelivr.net/gh/Anistick/EmbedScript@v1.2.0/latest.min.js"></script>
   </head>
   
   <body>
     <div id="demo"></div>
     <button onclick="myDemo()">Click me!</button>
     <es type="pure-js">
-      function myDemo() {var p = document.createElement("p");p.textContent = "This has been made with JavaScript";document.getElementById("demo").appendChild(p);}
+      function myDemo() {var p = document.createElement("p");p.textContent = "This has been made with EmbedScript";document.getElementById("demo").appendChild(p);}
     </es>
   </body>
 </html>
