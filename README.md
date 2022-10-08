@@ -29,3 +29,4 @@ print("Hello, World!")
 ```
 That's the basics!
 Python embedding uses [PyScript.](https://pyscript.net)
+A demo of JavaScript is [here.](https://lightspeed.anistick.com/EmbedScript/demo) Python demo coming soon.
