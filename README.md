@@ -1,5 +1,5 @@
-# EmbedScript
-a JavaScript based app that lets you embed types of scripts
+# EmbedScript - a JavaScript based app that lets you embed types of scripts
+EmbedScript works by grabbing all HTML elements with the `<es>` tag, and their types, and parses the specified script type into a `<script>` or the main tag for that script.
 # Introduction
 First, add the jsDelivr CDN.
 ```html
