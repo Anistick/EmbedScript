@@ -3,7 +3,7 @@ a JavaScript based app that lets you embed types of scripts
 # Introduction
 First, add the jsDelivr CDN.
 ```html
-<script async defer src="https://cdn.jsdelivr.net/gh/Anistick/EmbedScript@master/latest.min.js"></script>
+<script async defer src="https://cdn.jsdelivr.net/gh/Anistick/EmbedScript@main/latest.min.js"></script>
 ```
 ### JavaScript embedding
 To embed JavaScript, you need to use the `<es>` tag and `pure-js` type. An example is like so:
